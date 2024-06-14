@@ -1,0 +1,98 @@
+body
+        {
+            background-color: #FF5580;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            text-align: justify;
+        }
+        div
+        {
+            background-color: #FF5580;
+            box-shadow: 0 0 10px #FFAA80;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        .inner
+        {
+            padding: 20px;
+            background-color: #FFFF80;
+            border-radius: 8px;
+            display: flex;
+
+        }
+        img 
+        {
+            width: 200px;
+            border: 5px solid #ffffff;
+            border-radius: 10px;
+            margin: 10px 0 10px;
+            box-shadow: 0 0 10px rgb(46, 45, 45);
+        }
+        .one
+        {
+            flex: 1 1 200px;
+            margin: 10px 0px;
+            text-align: center;
+        }
+        h1
+        {
+            font: 70;
+            font-size: 45px;
+            margin: 0to;
+            text-align: center;
+            font-style: normal;
+            font-family: Roboto;
+        }
+        span
+        {
+            font-style: normal;
+            font-size:20px;
+            font-family: Roboto;
+            display: block;
+            margin: auto;
+        }
+        .about
+        {
+            background-color: #4d853a;
+            box-shadow: 0 0 10px rgba(46, 45, 45);
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            justify-content: left;
+            border-radius: 10px;
+        }
+        .innerAbout
+        {
+            margin: 0px 0px 20px 0px ;
+            background-color: #407138;
+            border-radius: 10px;
+            padding: 5px;
+            box-shadow: 0 0 10px rgba(46, 45, 45);
+        }
+        .titleAbout
+        {
+            font-family: Roboto;
+        }
+        h5
+        {
+            margin: 3px;
+            font-size: 1rem;
+            font-family: Roboto;
+            font-style: normal;
+            text-align: left;
+        }
+        .knowThem
+        {
+            margin-left: 2px;
+            font-size: 1rem;
+            font-style: italic;
+            font-family: Roboto;
+        }
+        span
+        {
+            font-style: normal;
+            font-family: Roboto;
+        }
