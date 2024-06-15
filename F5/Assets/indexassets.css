@@ -1,0 +1,49 @@
+body
+{
+    background-color: #9DCAEB;
+    font-family: Arial, sans-serif;
+    color: #251e1e;
+    text-align: justify;
+}
+div
+{
+    background-color: #D4FAFA;
+    box-shadow: 0 0 10px #55AAFF;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 10px;
+}
+h1
+{
+    font: 70;
+    font-size: 45px;
+    margin: 0to;
+    text-align: center;
+    font-style: normal;
+    font-family: Roboto;
+}
+hr
+{
+    border: 10px solid #D4FAFA;
+    box-shadow: 0 0 10px #55AAFF;
+    border-radius: 5px;
+}
+button[type = "Click"]
+{
+    border: none;
+    border-radius: 3px;
+    padding: 15px 20px;
+    width: 50%;
+    color: white;
+    background-color: lightskyblue;
+    font-family: Roboto;
+    color: black;
+    font: 70;
+    font-size: 45px;
+}
+button[type = "Click"]:hover
+{
+    background-color: #9DCAEB;
+}
