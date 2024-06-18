@@ -9,3 +9,16 @@
     margin-right: auto;
     margin-top: 130px;
 }
+input[type = "button"]
+{
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+    background-color: lightskyblue;
+    box-shadow: 1px 1px 2px black;
+}
+input[type = "button"]:hover
+{
+    background-color: rgb(86, 86, 255);
+}
