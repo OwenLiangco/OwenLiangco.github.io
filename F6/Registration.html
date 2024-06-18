@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col col-md-4 regform">
                 <h1>Registration Form</h1>
-                <form action="" method="post">
+                <form action="" method="post" id="form">
                     <div class="col col-md-12 mb-3">
                         <label for="Fname" class="form-label">First Name</label>
                         <input type="text" class="form-control" name="Fname" id="Fname">
@@ -38,14 +38,15 @@
                     </div>
                     <div class="col col-md-12 mb-3">
                         <label for="pwd" class="form-label">Password:</label>
-                        <input type="password" class="form-control" id="pwd" name="pwd">
+                        <input type="password" class="form-control" id="password" name="password">
                     </div>
                     <div class="col col-md-12 mb-3">
                         <label for="pwd" class="form-label">Confirm Password:</label>
                         <input type="password" class="form-control" id="confirm_password" required>
                     </div>
-                    <div class = "button">
-                        <input type="button" value="Redirect Me" onclick="submitToPage();" />
-                    </div> 
+
+                    <button type="submit" class="pure-button pure-button-primary">Confirm</button>
+
+         <script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>

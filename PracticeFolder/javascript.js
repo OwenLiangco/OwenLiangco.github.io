@@ -20,4 +20,4 @@ function handleSubmit(event) {
 password.onchange = validatePassword;
 confirm_password.onkeyup = validatePassword;
 
-document.getElementById("form").addEventListener("submit", handleSubmit);
+document.getElementById("passwordForm").addEventListener("submit", handleSubmit);
