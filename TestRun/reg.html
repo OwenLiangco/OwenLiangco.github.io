@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        function submitToPage() {
+            window.location = "https://www.google.com";
+        }
+    </script>
+    <title>Registration Form</title>
+</head>
+<body style="background-color: rgb(157, 228, 238);">
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-4 regform">
+                <h1>Registration Form</h1>
+                <form action="" method="post" id="form">
+                    <div class="col col-md-12 mb-3">
+                        <label for="Fname" class="form-label">First Name</label>
+                        <input type="text" class="form-control" name="Fname" id="Fname" required>
+                        <div class="invalid-feedback">First name is required</div>
+                    </div>
+                    <div class="col col-md-12 mb-3">
+                        <label for="Lname" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" name="Lname" id="Lname" required>
+                        <div class="invalid-feedback">Last name is required</div>
+                    </div>
+                    <div class="col col-md-12 mb-3">
+                        <label for="Mname" class="form-label">Middle Name</label>
+                        <input type="text" class="form-control" name="Mname" id="Mname" required>
+                        <div class="invalid-feedback">Middle name is required</div>
+                    </div>
+                    <div class="col col-md-12 mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email" id="email" required>
+                        <div class="invalid-feedback">Email is required</div>
+                    </div>
+                    <div class="col col-md-12 mb-3">
+                        <label for="pwd" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" name="password" required>
+                        <div class="invalid-feedback">Password is required</div>
+                    </div>
+                    <div class="col col-md-12 mb-3">
+                        <label for="pwd" class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control" id="confirm_password" required>
+                        <div class="invalid-feedback">Confirm password is required</div>
+                    </div>
+                    <button type="submit" class="pure-button pure-button-primary">Confirm</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
