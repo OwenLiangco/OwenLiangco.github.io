@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('Assets/FeuBackground.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+.login-container {
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 150%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.form-actions label {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-bottom: 20px;
+}
+.logo img {
+    max-width: 150px;
+}
+.forgot-password {
+    color: white;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+.login-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 150%;
+}
+.login-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.login-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.horizontal-rule {
+    border: 0;
+    height: 3px;
+    background: white;
+    width: 150%;
+    margin-top: 20px;
+}
